@@ -11,6 +11,8 @@
 		B30B3C0E2A638DBF00EB7A1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B3C0D2A638DBF00EB7A1F /* ContentView.swift */; };
 		B30B3C102A638DC000EB7A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30B3C0F2A638DC000EB7A1F /* Assets.xcassets */; };
 		B30B3C132A638DC000EB7A1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30B3C122A638DC000EB7A1F /* Preview Assets.xcassets */; };
+		B30B3C1A2A638DFB00EB7A1F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B3C192A638DFB00EB7A1F /* Cell.swift */; };
+		B30B3C1C2A63E38800EB7A1F /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B3C1B2A63E38800EB7A1F /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B30B3C0D2A638DBF00EB7A1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B30B3C0F2A638DC000EB7A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30B3C122A638DC000EB7A1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B30B3C192A638DFB00EB7A1F /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B30B3C1B2A63E38800EB7A1F /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		B30B3BFF2A638DBF00EB7A1F = {
 			isa = PBXGroup;
 			children = (
+				B30B3C1B2A63E38800EB7A1F /* GameState.swift */,
 				B30B3C0A2A638DBF00EB7A1F /* TicTacToeSwiftUI */,
 				B30B3C092A638DBF00EB7A1F /* Products */,
 			);
@@ -53,6 +58,7 @@
 			children = (
 				B30B3C0B2A638DBF00EB7A1F /* TicTacToeSwiftUIApp.swift */,
 				B30B3C0D2A638DBF00EB7A1F /* ContentView.swift */,
+				B30B3C192A638DFB00EB7A1F /* Cell.swift */,
 				B30B3C0F2A638DC000EB7A1F /* Assets.xcassets */,
 				B30B3C112A638DC000EB7A1F /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30B3C0E2A638DBF00EB7A1F /* ContentView.swift in Sources */,
+				B30B3C1C2A63E38800EB7A1F /* GameState.swift in Sources */,
 				B30B3C0C2A638DBF00EB7A1F /* TicTacToeSwiftUIApp.swift in Sources */,
+				B30B3C1A2A638DFB00EB7A1F /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
